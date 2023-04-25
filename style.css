@@ -35,3 +35,70 @@ body {
 }
 
 /* place your styles below */
+
+.rootBlock {
+  background-color: #b6b6cc;
+  width: 1000px;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.main > h1 {
+  font-size: 52px;
+}
+
+.image {
+  border-radius: 2%;
+  width: 100%;
+  height: 100%;
+}
+.imageBlock {
+  width: 100%;
+  height: 100%;
+}
+.textBlock {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.textBlock > header {
+  font-size: 32px;
+  padding: 10px;
+}
+.text {
+  font-size: 26px;
+  padding: 10px;
+}
+
+.buttonBlock {
+  width: 100%;
+  height: 100%;
+  background-color: #242538;
+  border-radius: 10px;
+  border: 3px solid;
+  border-color: white gray gray white;
+}
+.buttonBlock > button {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-size: 24px;
+}
+
+.vertical {
+  display: grid;
+  grid-auto-columns: minmax(0, 1fr);
+  grid-auto-flow: column;
+  column-gap: 20px;
+}
+
+.horizontal {
+  display: grid;
+  grid-auto-rows: minmax(0, 1fr);
+  grid-auto-flow: row;
+  row-gap: 20px;
+}
